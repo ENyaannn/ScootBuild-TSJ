@@ -5,16 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Configurator | TSJscootbuild.com</title>
   <meta name="description" content="Explore TSJ scooter configuration directions, setup inspirations, and build categories on the dedicated configurator page.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="page-configurator">
   <div class="page-shell">
     <header class="site-header">
       <a class="brand" href="index.html">
-        <span class="brand-mark">TSJ</span>
+        <span class="brand-mark brand-mark-text">TSJ</span>
         <span class="brand-copy">
           <strong>TSJscootbuild</strong>
           <small>Configurator</small>
@@ -30,12 +31,38 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="builds.html">Projects</a>
-        <a href="configurator.html">Configurator</a>
+        <a class="is-current" href="configurator.html">Configurator</a>
+        <a href="prices.html">Price</a>
         <a href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main>
+      <section class="ticker" aria-label="Brand highlights">
+        <div class="ticker-inner">
+          <div class="ticker-track">
+            <span>About TSJ</span>
+            <span>What We Do</span>
+            <span>Future Plans</span>
+            <span>Scooter Identity</span>
+            <span>About TSJ</span>
+            <span>What We Do</span>
+            <span>Future Plans</span>
+            <span>Scooter Identity</span>
+          </div>
+          <div class="ticker-track" aria-hidden="true">
+            <span>About TSJ</span>
+            <span>What We Do</span>
+            <span>Future Plans</span>
+            <span>Scooter Identity</span>
+            <span>About TSJ</span>
+            <span>What We Do</span>
+            <span>Future Plans</span>
+            <span>Scooter Identity</span>
+          </div>
+        </div>
+      </section>
+
       <section class="projects-hero">
         <div class="projects-hero-copy">
           <p class="eyebrow">TSJ configurator</p>
@@ -68,45 +95,45 @@
         <div class="config-grid">
           <article class="config-card" data-category="street show">
             <span class="config-index">01</span>
-            <h3>Luxury Street</h3>
-            <p>Deep paint, premium trims, cleaner suspension stance, and a build that looks expensive in any city setting.</p>
+            <h3>Stock</h3>
+            <p>A clean base setup for riders who want reliability, simplicity, and the original scooter feeling without aggressive upgrades.</p>
             <ul>
-              <li>Gloss body finish</li>
-              <li>Sharper front lighting</li>
-              <li>Elegant wheel emphasis</li>
+              <li>Original-style setup</li>
+              <li>Comfort-focused ride</li>
+              <li>Simple daily usability</li>
             </ul>
           </article>
 
           <article class="config-card" data-category="performance">
             <span class="config-index">02</span>
-            <h3>Aggressive Performance</h3>
-            <p>For riders who want direct response, stronger setup focus, and a scooter that feels ready for serious work.</p>
+            <h3>Sport</h3>
+            <p>A balanced upgrade path for riders who want more response, better acceleration, and a scooter that feels more alive on the street.</p>
             <ul>
-              <li>Performance parts path</li>
-              <li>Tighter cockpit feel</li>
-              <li>Functional upgrade logic</li>
+              <li>Sharper throttle feel</li>
+              <li>Light performance upgrades</li>
+              <li>Street-ready balance</li>
             </ul>
           </article>
 
           <article class="config-card" data-category="restoration show">
             <span class="config-index">03</span>
-            <h3>Revived Classic</h3>
-            <p>Restore older scooters with premium restraint, preserving charm while upgrading the whole visual tone.</p>
+            <h3>Sport Pro</h3>
+            <p>A more serious setup for riders who want stronger performance, cleaner tuning direction, and a sharper overall machine.</p>
             <ul>
-              <li>Body cleanup</li>
-              <li>Seat and trim refresh</li>
-              <li>Heritage-first details</li>
+              <li>Stronger mid-range power</li>
+              <li>More focused build direction</li>
+              <li>Performance-oriented parts choice</li>
             </ul>
           </article>
 
           <article class="config-card" data-category="street performance">
             <span class="config-index">04</span>
-            <h3>Daily Weapon</h3>
-            <p>Balanced for daily use, stronger looks, and enough attitude to make the scooter feel like your own project.</p>
+            <h3>Racing</h3>
+            <p>The most aggressive direction, built for maximum speed focus, strong acceleration, and a setup that feels close to race purpose.</p>
             <ul>
-              <li>Rideable setup balance</li>
-              <li>Street-spec visual upgrades</li>
-              <li>Budget-aware improvements</li>
+              <li>High-performance configuration</li>
+              <li>Speed-first tuning logic</li>
+              <li>Track-inspired setup feel</li>
             </ul>
           </article>
         </div>
