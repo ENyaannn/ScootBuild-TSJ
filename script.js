@@ -54,7 +54,7 @@ if (revealItems.length > 0) {
   revealItems.forEach((item) => revealObserver.observe(item));
 }
 
-if (heroArt) {
+if (heroArt && window.matchMedia("(pointer: fine)").matches) {
   window.addEventListener("pointermove", (event) => {
     const x = (event.clientX / window.innerWidth - 0.5) * 12;
     const y = (event.clientY / window.innerHeight - 0.5) * 12;
